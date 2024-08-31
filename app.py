@@ -2,6 +2,10 @@
 import cv2  # OpenCV library for video capture and image processing
 import pixellib  # PixelLib library for image segmentation
 from pixellib.instance import instance_segmentation  # Import the instance segmentation class
+import tensorflow as tf  # Import TensorFlow
+
+# Use TensorFlow 1.x features in TensorFlow 2.x
+tf.compat.v1.disable_eager_execution()
 
 # Create an instance of the segmentation model
 segment_image = instance_segmentation()

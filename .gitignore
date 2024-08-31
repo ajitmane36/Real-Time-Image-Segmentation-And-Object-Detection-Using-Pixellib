@@ -11,6 +11,7 @@ __pycache__/
 # My gitignore files
 mask_rcnn_coco.h5
 pixellib_env
+pixellib_env2
 
 
 .Python
